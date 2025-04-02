@@ -1,4 +1,4 @@
-![Logotype](assets/logo.png)
+![Logotype](assets/tonalflex-logo.png)
 
 ---
 
