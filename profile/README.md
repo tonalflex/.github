@@ -1,4 +1,4 @@
-![Logotype](/assets/tonalflex-logo.png)
+<img src="/assets/tonalflex-logo.png" alt="Logotype" width="200"/>
 
 ---
 
