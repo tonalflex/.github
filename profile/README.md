@@ -12,4 +12,6 @@ Built around a compact, screenless hardware unit, TonalFlex is controlled remote
 - **Remote-first interaction** — control the device wirelessly from a browser or mobile device, with no built-in screen required.
 - **Modular and hackable** — from amplifier modeling to FX chains, everything is open, tweakable, and extendable.
 
-Whether you’re building your dream pedalboard or experimenting with DSP, TonalFlex provides a fully open canvas — no vendor lock-in, no compromises!
+Whether you’re crafting a custom pedalboard, building synth effects, or prototyping entirely new audio processors, TonalFlex gives you a fully open canvas — no vendor lock-in, no compromises.
+
+**Shape sound on your terms. Build the rig you’ve always wanted!**
