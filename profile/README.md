@@ -10,6 +10,6 @@ Built around a compact, screenless hardware unit, TonalFlex is controlled remote
 - **Modern, customizable UI using WebView and Vue.js** — build your plugin interface using web technologies (Vue + Vite), and use the same codebase both in development and within the plugin itself via JUCE's WebView support.
 - **Micro frontends via npm** — when deploying to the embedded device, plugin UIs are handled as independent micro frontends using npm, making each plugin lightweight, modular, and easy to update.
 - **Remote-first interaction** — control the device wirelessly from a browser or mobile device, with no built-in screen required.
-- **Modular and hackable** — from amp modeling to FX chains, everything is open, tweakable, and extendable.
+- **Modular and hackable** — from amplifier modeling to FX chains, everything is open, tweakable, and extendable.
 
-Whether you’re building your dream pedalboard or experimenting with DSP, TonalFlex provides a fully open canvas — no vendor lock-in, no compromises.
+Whether you’re building your dream pedalboard or experimenting with DSP, TonalFlex provides a fully open canvas — no vendor lock-in, no compromises!
