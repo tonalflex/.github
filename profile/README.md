@@ -44,7 +44,7 @@ Follow the [Tonalflex Bundle](https://github.com/tonalflex/tonalflex-bundle.git)
 
 ## 🧪 Develop Your Own Plugins
 
-Tonalflex provide a custom JUCE template for writing your own compatible plugins — see the [tonalflex-plugin-template](https://github.com/tonalflex/tonalflex-plugin-template).
+Tonalflex provide a custom JUCE template for writing your own compatible plugins — see the [tonalflex-template-plugin](https://github.com/tonalflex/tonalflex-template-plugin).
 
 Once you have written your plugin, you will need to fork and add your plugins to the following repositores:
 
