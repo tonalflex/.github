@@ -1,17 +1,56 @@
-![Logotype](/assets/tonalflex-logo.png)
+<img src="/assets/tonalflex-logo.png" alt="Tonalflex Logo" width="200"/>
 
 ---
 
-**TonalFlex** is an open-source platform for high-quality, portable tone shaping — designed to be powerful, flexible, and easy to integrate into any rig.
+**TonalFlex** is an open-source platform for running professional audio plugins on embedded hardware — portable, flexible, and fully remote-controllable.
 
-Built around a compact, screenless hardware unit, TonalFlex is controlled remotely through your phone, tablet, or computer. The system is built for developers and tone enthusiasts alike, offering a unique architecture:
+Powered by [Elk Audio OS](https://elk.audio/os/), TonalFlex transforms devices like the Raspberry Pi 4 into low-latency, headless DSP units capable of running multi-channel chains of VST3 plugins.
 
-- **Audio processing powered by cross-compiled JUCE plugins** — write your DSP code in JUCE, compile it for the embedded hardware, and deploy it seamlessly.
-- **Modern, customizable UI using WebView and Vue.js** — build your plugin interface using web technologies (Vue + Vite), and use the same codebase both in development and within the plugin itself via JUCE's WebView support.
-- **Micro frontends via npm** — when deploying to the embedded device, plugin UIs are handled as independent micro frontends using npm, making each plugin lightweight, modular, and easy to update.
-- **Remote-first interaction** — control the device wirelessly from a browser or mobile device, with no built-in screen required.
-- **Modular and hackable** — from amplifier modeling to FX chains, everything is open, tweakable, and extendable.
+TonalFlex is a complete bundle of applications and plugins that transform your embedded hardware into a fully featured **Pro Audio System**.
 
-Whether you’re crafting a custom pedalboard, building synth effects, or prototyping entirely new audio processors, TonalFlex gives you a fully open canvas — no vendor lock-in, no compromises.
+Remote control everything wirelessly from your phone, tablet, or computer - or via **MIDI** over Bluetooth or USB.
 
-**Shape sound on your terms. Build the rig you’ve always wanted!**
+---
+
+## Key Features
+
+- 🎛 **One Plugin Codebase**  
+  Write your audio plugins using JUCE and run them anywhere — cross-compile for embedded Linux, or build desktop formats like VST3, AU, AAX, and LV2 for macOS, Windows, and Linux.
+
+- 📱 **Unified UI**  
+  Design your plugin interfaces using modern web tools _(e.g. TypeScript, Vue, Vite)_. UIs run directly in desktop builds via JUCE WebView, and can also be packaged as `npm` micro frontends for use in the browser-based TonalFlex remote control UI — the same GUI code runs everywhere!
+
+- 🕹️ **Remote Control**  
+  Control your rig over Wi-Fi or Bluetooth — no screen required. TonalFlex also supports MIDI input over USB, Bluetooth, and virtual ports for use with footswitches, expression pedals, or DAW automation.
+
+- 🛠 **Fully Open Source**  
+  Fork it. Hack it. Extend it. TonalFlex is built to be modified.
+
+---
+
+## 🚀 DIY - Getting Started
+
+### 1. **Install ElkOS on RaspberryPi 4**
+
+Follow the official [Elk Audio OS](https://github.com/elk-audio/elk-pi) instructions.
+
+---
+
+### 2. **Install TonalFlex Bundle**
+
+Follow the [Tonalflex Bundle](https://github.com/tonalflex/tonalflex-bundle.git) instructions.
+
+---
+
+## 🧪 Develop Your Own Plugins
+
+Tonalflex provide a custom JUCE template for writing your own compatible plugins — see the [tonalflex-plugin-template](https://github.com/tonalflex/tonalflex-plugin-template).
+
+Once you have written your plugin, you will need to fork and add your plugins to the following repositores:
+
+- [tonalflex-ui](https://github.com/tonalflex/tonalflex-ui)
+- [tonalflex-bundle](https://github.com/tonalflex/tonalflex-bundle)
+
+After that, you can pull your personal fork of the [tonalflex-bundle](https://github.com/tonalflex/tonalflex-bundle) to your embedded device running ElkOS in order to use your own plugins.
+
+---
