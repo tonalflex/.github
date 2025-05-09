@@ -23,7 +23,7 @@ Remote control everything wirelessly from your phone, tablet, or computer - or v
   Design your plugin interfaces using modern web tools _(e.g. TypeScript, Vue, Vite)_. UIs run directly in desktop builds via JUCE WebView, and can also be packaged as `npm` micro frontends for use in the browser-based TonalFlex remote control UI — the same GUI code runs everywhere!
 
 - 🕹️ **Remote Control**  
-  Control your rig over Wi-Fi or Bluetooth — no screen required. TonalFlex also supports MIDI input over USB, Bluetooth, and virtual ports for use with footswitches, expression pedals, or DAW automation.
+  Control your rig over Wi-Fi or Bluetooth — no screen required. TonalFlex also supports MIDI input over USB and Bluetooth.
 
 - 🛠 **Fully Open Source**  
   Fork it. Hack it. Extend it. TonalFlex is built to be modified.
