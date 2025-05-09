@@ -36,8 +36,6 @@ Remote control everything wirelessly from your phone, tablet, or computer - or v
 
 Follow the official [Elk Audio OS](https://github.com/elk-audio/elk-pi) instructions.
 
----
-
 ### 2. **Install TonalFlex Bundle**
 
 Follow the [Tonalflex Bundle](https://github.com/tonalflex/tonalflex-bundle.git) instructions.
