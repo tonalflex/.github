@@ -1,4 +1,6 @@
-<img src="/assets/tonalflex-logo.png" alt="Tonalflex Logo" width="200"/>
+<p align="center">
+  <img src="/assets/tonalflex-logo.png" alt="Logotype" width="450"/>
+</p>
 
 ---
 
