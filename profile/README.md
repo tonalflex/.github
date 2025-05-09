@@ -6,7 +6,7 @@
 
 **TonalFlex** is an open-source platform for running professional audio plugins on embedded hardware — portable, flexible, and fully remote-controllable.
 
-Powered by [Elk Audio OS](https://elk.audio/os/), TonalFlex transforms devices like the Raspberry Pi 4 into low-latency, headless DSP units capable of running multi-channel chains of VST3 plugins.
+Powered by [Elk Audio OS](https://github.com/elk-audio), TonalFlex transforms devices like the Raspberry Pi 4 into low-latency, headless DSP units capable of running multi-channel chains of VST3 plugins.
 
 TonalFlex is a complete bundle of applications and plugins that transform your embedded hardware into a fully featured **Pro Audio System**.
 
